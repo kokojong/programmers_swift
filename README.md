@@ -28,7 +28,9 @@
 - `let setArray = Set(Array)`로 배열을 한번에 Set형태로 변환하기
 - `Array(repeating: 0, count: id_list.count)`로 동일한 크기의 배열 초기화하기
 
-### 2022.03.14(mon) 
+***
+
+### 2022.03.14(mon) 주차 요금 계산
 [문제](https://programmers.co.kr/learn/courses/30/lessons/92341)
 [풀이](https://github.com/kokojong/programmers_swift/blob/main/%EC%A3%BC%EC%B0%A8%20%EC%9A%94%EA%B8%88%20%EA%B3%84%EC%82%B0.swift)
 
