@@ -40,3 +40,7 @@
   ```swift 
   let sortedTimeDict = timeDict.sorted(by: < ) 
   ```
+
+***
+
+### 2022.03.15(tue) k진수에서 소수의 갯수 구하기
