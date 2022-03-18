@@ -44,3 +44,11 @@
 ***
 
 ### 2022.03.15(tue) k진수에서 소수의 갯수 구하기
+[문제](https://programmers.co.kr/learn/courses/30/lessons/92335)
+[풀이](https://github.com/kokojong/programmers_swift/blob/main/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%20%EC%86%8C%EC%88%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.swift)
+
+알게 된 것
+- k진법으로 변환 -> String(n, radix: k)
+- 추가적으로 filter를 통해서 ""에 대한 처리가 가능함(원래는 optional 처리로 했음)
+- sqrt(Double(n))로 제곱근을 구할 수 있음
+- 간만에 소수를 구하는 방법을 복습
