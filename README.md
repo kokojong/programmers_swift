@@ -52,3 +52,12 @@
 - 추가적으로 filter를 통해서 ""에 대한 처리가 가능함(원래는 optional 처리로 했음)
 - sqrt(Double(n))로 제곱근을 구할 수 있음
 - 간만에 소수를 구하는 방법을 복습
+
+***
+
+### 2022.03.19(sat) 입국 심사
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43238?language=swift)
+[풀이](https://github.com/kokojong/programmers_swift/blob/main/%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC.swift)
+
+알게 된 것
+- 이진 탐색의 기본 원리(왜 1부터 무작정 체크하지 않고 중간을 찾아가야 하는지 - 너무 큰 수이기 때문에)
