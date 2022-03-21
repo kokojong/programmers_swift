@@ -61,3 +61,49 @@
 
 알게 된 것
 - 이진 탐색의 기본 원리(왜 1부터 무작정 체크하지 않고 중간을 찾아가야 하는지 - 너무 큰 수이기 때문에)
+
+### 2022.03.20(sun) 가장 먼 노드
+[문제](https://programmers.co.kr/learn/courses/30/lessons/49189)
+[풀이](https://github.com/kokojong/programmers_swift/blob/main/%EA%B0%80%EC%9E%A5%20%EB%A8%BC%20%EB%85%B8%EB%93%9C.swift)
+
+알게 된 것
+- 그래프의 기본적인 복습
+- queue를 활용한 bfs 적용
+- ```swift
+  func bfs(_ f: Int, _ depth: Int) {
+    let edges: [Int] = connect[f] // f에서 갈 수 있는 리스트
+    
+    for edge in edges {
+        if visited[edge] == false {
+            queue.append(edge)
+            visited[edge] = true
+            result[edge] = depth+1
+        } 
+    }
+  }
+  ```
+- 시간 초과 이슈
+- ```swift
+  let maxV = result.max()
+  return result.filter { $0 == maxV}.count
+  // result.filter { $0 == result.max()}.count로 했더니 틀림(할때마다 max를 계산하게 한다)
+  ```
+
+***
+
+### 2022.03.20(sun) 합승 택시 요금
+[문제](https://programmers.co.kr/learn/courses/30/lessons/72413)
+[풀이](https://github.com/kokojong/programmers_swift/blob/main/%ED%95%A9%EC%8A%B9%20%ED%83%9D%EC%8B%9C%20%EC%9A%94%EA%B8%88.swift)
+
+알게 된 것
+- 플루이드 와샬 알고리즘 복습
+- ``` swift
+  for k in 1...n { // 거쳐가는 곳
+        for i in 1...n { // 시작
+            for j in 1...n { // 끝
+                if board[i][j] > board[i][k] + board[k][j] {
+                    board[i][j] = board[i][k] + board[k][j]
+                }
+            }
+        }
+    }
