@@ -110,4 +110,4 @@
     
 ### 2022.06.07(tue) 하노이의 탑
 [문제](https://programmers.co.kr/learn/courses/30/lessons/12946)
-[풀이])https://github.com/kokojong/programmers_swift/blob/main/%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98%20%ED%83%91.swift)
+[풀이](https://github.com/kokojong/programmers_swift/blob/main/%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98%20%ED%83%91.swift)
